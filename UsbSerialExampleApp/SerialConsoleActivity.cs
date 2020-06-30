@@ -40,7 +40,7 @@ using Hoho.Android.UsbSerial.Extensions;
 using Hoho.Android.UsbSerial.Util;
 
 
-namespace UsbSerialExampleApp
+namespace AhcDragerAdapter
 {
     [Activity(Label = "@string/app_name", LaunchMode = LaunchMode.SingleTop)]
     public class SerialConsoleActivity : Activity

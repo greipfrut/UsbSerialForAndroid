@@ -39,9 +39,9 @@ using Hoho.Android.UsbSerial.Util;
 [assembly: UsesFeature("android.hardware.usb.host")]
 
 
-namespace UsbSerialExampleApp
+namespace AhcDragerAdapter
 {
-    [Activity(Label = "UsbSerialExampleApp", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "AHC Drager Adapter", MainLauncher = true, Icon = "@drawable/icon")]
     [IntentFilter(new[] { UsbManager.ActionUsbDeviceAttached })]
     [MetaData(UsbManager.ActionUsbDeviceAttached, Resource = "@xml/device_filter")]
     public class MainActivity : Activity

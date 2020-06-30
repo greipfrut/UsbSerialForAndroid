@@ -5,7 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbSerialForAndroid", "UsbSerialForAndroid\UsbSerialForAndroid.csproj", "{A64567BC-548A-4CB7-9F2C-ECE75EE1A868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsbSerialExampleApp", "UsbSerialExampleApp\UsbSerialExampleApp.csproj", "{59C7DFF3-4E5E-42D7-BB77-E6C4F4E74512}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AHCDragerAdapter", "UsbSerialExampleApp\AHCDragerAdapter.csproj", "{59C7DFF3-4E5E-42D7-BB77-E6C4F4E74512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F01A1B0C-59C7-4908-B2E5-E4632D8C8885}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
